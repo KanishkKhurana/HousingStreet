@@ -11,8 +11,13 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'ownerBg': 'url("/images/owner.png")'
       },
     },
+    fontFamily:{
+      primary:['Archivo', "sans-serif"],
+      secondary:['Lalezar', "cursive"]
+    }
   },
   plugins: [],
 }
