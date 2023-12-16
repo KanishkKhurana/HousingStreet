@@ -5,10 +5,10 @@ import { BiCurrentLocation } from "react-icons/bi";
 import SearchResultCard from "@/components/search/SearchResultCard";
 
 
-export default function index() {
+export default function Index() {
   return (
-    <div className="z-20 text-black bg-white font-primary">
-      <h1 className="pt-28 text-center text-xl font-medium">Search</h1>
+    <div className="z-20 text-black bg-white font-primary xl:mx-44">
+      <h1 className="pt-28 text-center text-xl font-medium xl:text-5xl">Search</h1>
       <div className="flex bg-[#F8F8F8] px-3 mx-6 mt-5 items-center border rounded-xl border-black gap-5">
         <FiSearch className="text-lg" />
         <input

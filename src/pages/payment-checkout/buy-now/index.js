@@ -3,11 +3,11 @@ import Link from "next/link"
 
 export default function Index() {
   return (
-    <div className="py-20 text-black font-primary mx-8 font-thin">
-      <h1 className="text-center text-xl mt-5 font-medium">Checkout</h1>
+    <div className="py-20 text-black font-primary mx-8 xl:mx-44 font-thin">
+      <h1 className="text-center text-xl mt-5 xl:text-5xl font-medium">Checkout</h1>
 
       <div className="my-5">
-        <p className="text-sm">Debit / Credit Card</p>
+        <p className="text-sm xl:text-xl">Debit / Credit Card</p>
         <div className="grid grid-cols-2 gap-3 mt-3">
           <button className="bg-[#F5F5F5] font-light text-sm  border-[#606060] w-full p-2 rounded-xl">
             Debit Card
@@ -19,7 +19,7 @@ export default function Index() {
       </div>
 
       <div className="mb-5">
-        <p className="text-sm">Card Number </p>
+        <p className="text-sm xl:text-xl">Card Number </p>
         <input
           type="number"
           placeholder="0189467896558"
@@ -29,7 +29,7 @@ export default function Index() {
 
       <div className="mb-5 flex gap-5">
         <div>
-          <p className="">Expiry Date </p>
+          <p className="xl:text-xl">Expiry Date </p>
           <div className="bg-[#EEEEEE] w-fit rounded-md flex  px-2 py-1.5 ">
             <select name="token" id="token" className="   bg-transparent py-1">
               <option value="Jan">JAN</option>
@@ -84,7 +84,7 @@ export default function Index() {
           </div>          
         </div>
         <div>
-        <p className="">CVV </p>
+        <p className="xl:text-xl">CVV </p>
         <input
           type="number"
           placeholder="123"
@@ -94,7 +94,7 @@ export default function Index() {
       </div>
 
       <div className="mb-5">
-        <p className="text-sm">Name</p>
+        <p className="text-sm xl:text-xl">Name</p>
         <input
           type="text"
           placeholder="Jenny Streets"

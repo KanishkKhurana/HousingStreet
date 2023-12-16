@@ -13,24 +13,24 @@ export default function WishlistCard(props) {
         <Image
           src={Placeholder}
           alt="HousingStreet"
-          className="w-full h-full object-cover"
+          className="w-full h-full xl:rounded-xl xl:max-h-[250px] object-cover"
           />
       </div>
-      <div className="flex flex-col gap-5 justify-between basis-2/3">
+      <div className="flex flex-col gap-5 xl:gap-10 justify-between basis-2/3">
         <div>
-          <h3 className="text-xs">Chattarpur, Delhi</h3>
-          <h1 className="font-semibold ">Yumiko House</h1>
-          <p className="border border-[#FF5A5F] text-[#FF5A5F] w-fit  font-normal px-3 rounded-full text-[6px]">
+          <h3 className="text-xs xl:text-lg">Chattarpur, Delhi</h3>
+          <h1 className="font-semibold  xl:text-3xl">Yumiko House</h1>
+          <p className="border border-[#FF5A5F] text-[#FF5A5F] w-fit  font-normal px-3 rounded-full text-[6px] xl:text-lg">
             For Rent
           </p>
         </div>
         <div className="flex  gap-1 justify-between w-full">
           <div className="flex  gap-1 items-center ">
-            <h3 className="font-secondary text-sm">₹ {" " + 14000}</h3>
-            <p className="font-thin text-[10px]">/ month</p>
+            <h3 className="font-secondary text-sm xl:text-3xl ">₹ {" " + 14000}</h3>
+            <p className="font-thin text-[10px] xl:text-base">/ month</p>
           </div>
           <div>
-            <RiDeleteBin3Line/>
+            <RiDeleteBin3Line className="xl:text-3xl"/>
           </div>
           
         </div>

@@ -17,13 +17,13 @@ export default function Index() {
   return (
     <div className='py-20 pb-16 text-black font-primary'>
         <div className='flex items-center gap-5 justify-center my-5'>
-            <div className="p-5 w-20 bg-slate-300/80 rounded-xl h-20" />
+            <div className="p-5 w-20 bg-slate-300/80 rounded-xl h-20 xl:h-44 xl:w-44" />
             <div>
-                <h1 className='font-bold text-lg'>Jenny Streets</h1>
-                <p className='font-thin text-sm'>jenny@gmail.com</p>
+                <h1 className='font-bold text-lg xl:text-3xl'>Jenny Streets</h1>
+                <p className='font-thin text-sm xl:text-lg'>jenny@gmail.com</p>
             </div>
         </div>
-        <div className='bg-[#FFF5F5] h-full pb-16 px-5 py-8 flex flex-col gap-8'>
+        <div className='bg-[#FFF5F5] h-full pb-16 px-5 py-8 xl:px-44 flex flex-col gap-8'>
             <Link href="profile/personal-data" className='flex justify-between items-center btn-pop'>
                 <div className='flex gap-2 items-center font-medium'>
                     <CiUser className='text-4xl' />
@@ -84,7 +84,7 @@ export default function Index() {
                 </div>
             </Link>
 
-            <Link href="profile/settings" className='flex justify-between items-center btn-pop'>
+            {/* <Link href="profile/settings" className='flex justify-between items-center btn-pop'>
                 <div className='flex gap-2 items-center font-medium'>
                     <BsGear className='text-4xl' />
                     Settings
@@ -92,9 +92,9 @@ export default function Index() {
                 <div className='bg-[#EEEEEE] p-3 rounded-full'>
                     <AiOutlineRight />
                 </div>
-            </Link>
+            </Link> */}
 
-            <Link href="profile/faqs" className='flex justify-between items-center btn-pop'>
+            <Link href="/faqs" className='flex justify-between items-center btn-pop'>
                 <div className='flex gap-2 items-center font-medium'>
                     <FaQuestion className='text-4xl' />
                     FAQs

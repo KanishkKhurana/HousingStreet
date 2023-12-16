@@ -4,11 +4,11 @@ import {AiFillStar} from "react-icons/ai"
 
 export default function Index() {
   return (
-    <div className='py-20 text-black font-primary mx-8 font-thin'>
-    <h1 className='text-center text-xl mt-5 font-medium'>
+    <div className='py-20 text-black font-primary mx-8 xl:mx-44 font-thin'>
+    <h1 className='text-center text-xl xl:text-5xl mt-5 font-medium'>
         Local Service Providers
     </h1>     
-    <div className='mt-5 grid grid-cols-2 gap-3'>
+    <div className='mt-5 grid grid-cols-2 xl:grid-cols-1 gap-3'>
         <div className='border-[0.25px] border-[#FF5A5F] p-3 rounded-xl bg-[#FFF5F5] '>
             <p className='text-xs'>Name</p>
             <h3 className='font-medium'>Akshay Gupta</h3>
@@ -40,7 +40,7 @@ export default function Index() {
     
     
     <div className='mt-8'>
-        <Link href="/profile/local-service-providers/" className='font-medium btn-pop text-white rounded-full bg-[#FF5A5F] px-10 py-2'>Back to Search</Link>
+        <Link href="/profile/local-service-providers/" className='font-medium btn-pop text-white rounded-full xl:text-2xl bg-[#FF5A5F] px-10 py-2'>Back to Search</Link>
     </div>
 </div>
   )

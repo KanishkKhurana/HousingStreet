@@ -3,9 +3,9 @@ import Link from 'next/link'
 import {FcGoogle} from "react-icons/fc"
 
 
-export default function index() {
+export default function Index() {
   return (
-    <div className='bg-[#ff5a603d] text-black min-h-screen font-primary flex flex-col items-center py-10'>
+    <div className='bg-[#ff5a603d] text-black min-h-screen font-primary flex flex-col items-center py-10 xl:px-24'>
         <div className='text-center '>
             <h1 className='font-secondary text-3xl'>Welcome!</h1>
             <p className='text-sm font-light'>Login or Register to save your favourite property</p>

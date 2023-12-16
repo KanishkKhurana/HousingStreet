@@ -12,18 +12,18 @@ export default function PlanCard(props) {
        
         <div className='flex flex-col gap-2 w-full'>
             <div>                
-                <h1 className='font-semibold '>RAJA</h1>
-                <h3 className='text-xs'>24 Feb 2022 | 02:44:51 am</h3>
-<button className='text-[#FF5A5F] text-xs  font-bold'>View Details</button>
+                <h1 className='font-semibold  xl:text-3xl'>RAJA</h1>
+                <h3 className='text-xs xl:text-base'>24 Feb 2022 | 02:44:51 am</h3>
+<button className='text-[#FF5A5F] text-xs xl:text-lg font-bold'>View Details</button>
             </div>            
             <div className='flex justify-between gap-1 w-full '>
                 <div>
-                <h1 className='font-semibold'>₹3,600</h1>
-                <p className='text-xs '>(Paid)</p>
+                <h1 className='font-semibold xl:text-xl'>₹3,600</h1>
+                <p className='text-xs xl:text-base'>(Paid)</p>
                 </div>
                 <div className='flex flex-col gap-2'>
-                <button  className={`border ${props.available ? "bg-[#FF5A5F] border-[#FF5A5F] " : "bg-[#7A7A7A] border-[#7A7A7A]"}  btn-pop  text-white  font-normal px-5 text-center h-fit py-1 rounded-full text-[8px] w-fit`}>Payment {props.available? "available" : "used"}</button>
-                <button className='border btn-pop  border-[#FF5A5F] text-[#FF5A5F] font-normal px-5 text-center h-fit py-1 rounded-full text-[8px] w-fit'>Download Invoice</button>
+                <button  className={`border ${props.available ? "bg-[#FF5A5F] border-[#FF5A5F] " : "bg-[#7A7A7A] border-[#7A7A7A]"}  btn-pop  text-white  font-normal px-5 text-center h-fit py-1 rounded-full text-[8px] xl:text-lg w-fit`}>Payment {props.available? "available" : "used"}</button>
+                <button className='border btn-pop  border-[#FF5A5F] text-[#FF5A5F] font-normal px-5 text-center h-fit py-1 rounded-full text-[8px] xl:text-lg w-fit'>Download Invoice</button>
                 </div>
             </div>
             

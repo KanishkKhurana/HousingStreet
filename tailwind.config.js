@@ -11,7 +11,12 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'ownerBg': 'url("/images/owner.png")'
+        'ownerBg': 'url("/images/owner.png")',
+        'heroBg': 'url("/images/hero.png")',
+        'hero2Bg': 'url("/images/hero2.png")',
+        'hero3Bg': 'url("/images/hero3.png")',
+        'hero4Bg': 'url("/images/hero4.png")',
+        'areasBg': 'url("/images/areas.png")',
       },
     },
     fontFamily:{
